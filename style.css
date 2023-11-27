@@ -1,0 +1,25 @@
+#party-list {
+  list-style: none;
+  padding: 0;
+}
+
+#party-list li {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+#party-form {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+#party-form label {
+  margin-bottom: 10px;
+}
+
+#party-form input,
+#party-form button {
+  padding: 6px 12px;
+}
